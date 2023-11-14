@@ -12,6 +12,7 @@
 		E85623172AF9868F00BECC3D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85623162AF9868F00BECC3D /* Item.swift */; };
 		E85623192AF9869000BECC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85623182AF9869000BECC3D /* Assets.xcassets */; };
 		E856231C2AF9869000BECC3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E856231B2AF9869000BECC3D /* Preview Assets.xcassets */; };
+		E85623232AF9879700BECC3D /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85623222AF9879700BECC3D /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E85623162AF9868F00BECC3D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E85623182AF9869000BECC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E856231B2AF9869000BECC3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E85623222AF9879700BECC3D /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				E85623122AF9868F00BECC3D /* FlashCa_SwiftUIApp.swift */,
 				E85623142AF9868F00BECC3D /* ContentView.swift */,
+				E85623222AF9879700BECC3D /* StartView.swift */,
 				E85623162AF9868F00BECC3D /* Item.swift */,
 				E85623182AF9869000BECC3D /* Assets.xcassets */,
 				E856231A2AF9869000BECC3D /* Preview Content */,
@@ -143,6 +146,7 @@
 				E85623152AF9868F00BECC3D /* ContentView.swift in Sources */,
 				E85623172AF9868F00BECC3D /* Item.swift in Sources */,
 				E85623132AF9868F00BECC3D /* FlashCa_SwiftUIApp.swift in Sources */,
+				E85623232AF9879700BECC3D /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
