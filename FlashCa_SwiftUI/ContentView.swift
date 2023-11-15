@@ -33,11 +33,22 @@ struct ContentView: View {
                         Label("Add Item", systemImage: "plus")
                     }
                 }
+                ToolbarItem {
+                    NavigationLink(destination: ExampleStartView()) {
+                        Text("Show Detail")
+                    }
+                }
             }
         } detail: {
             Text("Select an item")
         }
     }
+//    
+//    private func showStarterView() {
+//        NavigationLink(destination: ExampleStartView()) {
+//            Text("Show Detail")
+//        }
+//    }
 
     private func addItem() {
         withAnimation {
