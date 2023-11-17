@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E8219EEF2B04E77D003F44D9 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8219EEE2B04E77D003F44D9 /* StartView.swift */; };
+		E8219EF12B05818B003F44D9 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8219EF02B05818B003F44D9 /* CategoriesView.swift */; };
 		E85623132AF9868F00BECC3D /* FlashCa_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85623122AF9868F00BECC3D /* FlashCa_SwiftUIApp.swift */; };
 		E85623152AF9868F00BECC3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85623142AF9868F00BECC3D /* ContentView.swift */; };
 		E85623172AF9868F00BECC3D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85623162AF9868F00BECC3D /* Item.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		E8219EEE2B04E77D003F44D9 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		E8219EF02B05818B003F44D9 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		E856230F2AF9868F00BECC3D /* FlashCa_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCa_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85623122AF9868F00BECC3D /* FlashCa_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCa_SwiftUIApp.swift; sourceTree = "<group>"; };
 		E85623142AF9868F00BECC3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				E85623162AF9868F00BECC3D /* Item.swift */,
 				E85623182AF9869000BECC3D /* Assets.xcassets */,
 				E856231A2AF9869000BECC3D /* Preview Content */,
+				E8219EF02B05818B003F44D9 /* CategoriesView.swift */,
 			);
 			path = FlashCa_SwiftUI;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				E85623152AF9868F00BECC3D /* ContentView.swift in Sources */,
 				E8219EEF2B04E77D003F44D9 /* StartView.swift in Sources */,
+				E8219EF12B05818B003F44D9 /* CategoriesView.swift in Sources */,
 				E85623172AF9868F00BECC3D /* Item.swift in Sources */,
 				E85623132AF9868F00BECC3D /* FlashCa_SwiftUIApp.swift in Sources */,
 				E85623232AF9879700BECC3D /* ExampleStartView.swift in Sources */,

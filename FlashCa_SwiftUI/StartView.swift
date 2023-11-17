@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct StartView: View {
+    
+    @State var isP: Bool = false
+    
     var body: some View {
+        
         VStack {
             Text("FlashCa")
                 .padding()
@@ -16,7 +20,9 @@ struct StartView: View {
             
             VStack {
                 Button {
-                    print("Category")
+//                    CategoriesView()
+                    print("category")
+                    isP.toggle()
                 } label: {
                     Text("Category")
                         .padding()
@@ -26,7 +32,17 @@ struct StartView: View {
                         .padding(.horizontal)
                         .foregroundStyle(Color("mainLight"))
                         .padding(.horizontal, 12)
-                }
+                }.fullScreenCover(isPresented: $isP, content: {
+                    CategoriesView()
+                })
+//                .sheet(isPresented: $isP, content: {
+//                    CategoriesView()
+//                })
+//                .onTapGesture {
+//                    withAnimation {
+//                        
+//                    }
+//                }
                 
                 
                 Button {
@@ -42,6 +58,18 @@ struct StartView: View {
                         .padding(.horizontal, 12)
                 }
                 
+                Button {
+                    print("Charts")
+                } label: {
+                    Text("Charts")
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color("mainDark"))
+                        .clipShape(RoundedRectangle(cornerRadius: 12, style: .circular))
+                        .padding(.horizontal)
+                        .foregroundStyle(Color("mainLight"))
+                        .padding(.horizontal, 12)
+                }
                 
                 Button {
                     print("Learn")
