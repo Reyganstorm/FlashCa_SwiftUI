@@ -20,6 +20,8 @@ struct ContentView: View {
                         Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
                     } label: {
                         Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+                            .padding(.top, 34)
+                        Text("Hi hi hi hi")
                     }
                 }
                 .onDelete(perform: deleteItems)
@@ -66,7 +68,7 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
-}
+//#Preview {
+//    ContentView()
+//        .modelContainer(for: Item.self, inMemory: true)
+//}

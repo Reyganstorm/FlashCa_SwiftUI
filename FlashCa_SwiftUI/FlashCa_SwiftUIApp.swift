@@ -13,6 +13,7 @@ struct FlashCa_SwiftUIApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
+            Deck.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -22,11 +23,13 @@ struct FlashCa_SwiftUIApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+    
+    var mockStorage = MockStorage()
 
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            StartView()
+            ContentView()
+//            StartView()
         }
         .modelContainer(sharedModelContainer)
     }
