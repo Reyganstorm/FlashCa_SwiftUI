@@ -13,11 +13,16 @@ final class Deck {
     var name: String
     var createAt: Date
     var about: String
-//    var description: String
+    var cards: [Card]
     
-    init(name: String, createAt: Date, about: String) {
+    init(name: String, 
+         createAt: Date,
+         about: String,
+         cards: [Card] = []
+    ) {
         self.name = name
         self.createAt = createAt
         self.about = about
+        self.cards = cards
     }
 }

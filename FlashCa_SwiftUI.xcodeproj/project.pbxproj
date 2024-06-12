@@ -18,6 +18,7 @@
 		E856231C2AF9869000BECC3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E856231B2AF9869000BECC3D /* Preview Assets.xcassets */; };
 		E85623232AF9879700BECC3D /* ExampleStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85623222AF9879700BECC3D /* ExampleStartView.swift */; };
 		E8C816CC2BCBFA01004A3361 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C816CB2BCBFA01004A3361 /* ListCellView.swift */; };
+		E8ED6B3D2C1A1D7600D39F8F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ED6B3C2C1A1D7600D39F8F /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E856231B2AF9869000BECC3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E85623222AF9879700BECC3D /* ExampleStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleStartView.swift; sourceTree = "<group>"; };
 		E8C816CB2BCBFA01004A3361 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
+		E8ED6B3C2C1A1D7600D39F8F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				E84A19892B0AA4A4008FFDDC /* Deck.swift */,
+				E8ED6B3C2C1A1D7600D39F8F /* Card.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				E84A198A2B0AA4A4008FFDDC /* Deck.swift in Sources */,
 				E85623172AF9868F00BECC3D /* Item.swift in Sources */,
 				E85623132AF9868F00BECC3D /* FlashCa_SwiftUIApp.swift in Sources */,
+				E8ED6B3D2C1A1D7600D39F8F /* Card.swift in Sources */,
 				E85623232AF9879700BECC3D /* ExampleStartView.swift in Sources */,
 				E8C816CC2BCBFA01004A3361 /* ListCellView.swift in Sources */,
 			);
