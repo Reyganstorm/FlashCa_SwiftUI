@@ -8,12 +8,24 @@
 import SwiftUI
 
 struct CardView: View {
+    
+    @State var term: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        
+        ZStack{
+            RoundedRectangle(cornerRadius: 20)
+                .foregroundStyle(.blue)
+            VStack(alignment: .leading) {
+                Text(term)
+                    .font(.largeTitle)
+                    .padding(.top, 20)
+                Spacer()
+            }
+        }
     }
 }
 
 #Preview {
-    CardView()
+    CardView(term: "Hello World")
+        .padding(20)
 }
