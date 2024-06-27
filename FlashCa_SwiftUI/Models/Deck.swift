@@ -8,6 +8,9 @@
 import SwiftData
 import Foundation
 
+/// Model used for save data
+///  need more properties 
+
 @Model
 final class Deck {
     var name: String
