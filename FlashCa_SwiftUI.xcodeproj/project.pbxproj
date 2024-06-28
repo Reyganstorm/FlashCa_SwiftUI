@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E81365332C2DF47E00025C73 /* GameDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81365322C2DF47E00025C73 /* GameDeck.swift */; };
+		E81365362C2F4C0300025C73 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81365352C2F4C0300025C73 /* Navigation.swift */; };
 		E8219EEF2B04E77D003F44D9 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8219EEE2B04E77D003F44D9 /* StartView.swift */; };
 		E8219EF12B05818B003F44D9 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8219EF02B05818B003F44D9 /* CategoriesView.swift */; };
 		E84A19872B0AA3F8008FFDDC /* MockStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84A19862B0AA3F8008FFDDC /* MockStorage.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		E81365322C2DF47E00025C73 /* GameDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDeck.swift; sourceTree = "<group>"; };
+		E81365352C2F4C0300025C73 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		E8219EEE2B04E77D003F44D9 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		E8219EF02B05818B003F44D9 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		E84A19862B0AA3F8008FFDDC /* MockStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStorage.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E81365342C2F4BF600025C73 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E81365352C2F4C0300025C73 /* Navigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		E84A19852B0AA3D3008FFDDC /* Storage */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +102,7 @@
 		E85623112AF9868F00BECC3D /* FlashCa_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E81365342C2F4BF600025C73 /* Navigation */,
 				E8AE08442C234C1C0013AF51 /* Localization */,
 				E8BEAE692C1F6BAD00BEE5E2 /* ViewComponents */,
 				E84A19882B0AA480008FFDDC /* Models */,
@@ -215,6 +226,7 @@
 				E85623132AF9868F00BECC3D /* FlashCa_SwiftUIApp.swift in Sources */,
 				E8ED6B3D2C1A1D7600D39F8F /* Card.swift in Sources */,
 				E85623232AF9879700BECC3D /* ExampleStartView.swift in Sources */,
+				E81365362C2F4C0300025C73 /* Navigation.swift in Sources */,
 				E8BEAE6B2C1F6BC100BEE5E2 /* CardView.swift in Sources */,
 				E81365332C2DF47E00025C73 /* GameDeck.swift in Sources */,
 				E8C816CC2BCBFA01004A3361 /* ListCellView.swift in Sources */,
