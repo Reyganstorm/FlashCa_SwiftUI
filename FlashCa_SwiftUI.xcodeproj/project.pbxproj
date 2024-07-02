@@ -64,6 +64,26 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		E83538912C348CD5001F2DB2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E85623122AF9868F00BECC3D /* FlashCa_SwiftUIApp.swift */,
+				E85623182AF9869000BECC3D /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E83538922C348CF5001F2DB2 /* ScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				E8219EEE2B04E77D003F44D9 /* StartView.swift */,
+				E85623222AF9879700BECC3D /* ExampleStartView.swift */,
+				E85623142AF9868F00BECC3D /* ContentView.swift */,
+				E8219EF02B05818B003F44D9 /* CategoriesView.swift */,
+			);
+			path = ScreenViews;
+			sourceTree = "<group>";
+		};
 		E84A19852B0AA3D3008FFDDC /* Storage */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +96,7 @@
 		E84A19882B0AA480008FFDDC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E85623162AF9868F00BECC3D /* Item.swift */,
 				E84A19892B0AA4A4008FFDDC /* Deck.swift */,
 				E8ED6B3C2C1A1D7600D39F8F /* Card.swift */,
 				E81365322C2DF47E00025C73 /* GameDeck.swift */,
@@ -102,19 +123,14 @@
 		E85623112AF9868F00BECC3D /* FlashCa_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E83538922C348CF5001F2DB2 /* ScreenViews */,
+				E83538912C348CD5001F2DB2 /* App */,
 				E81365342C2F4BF600025C73 /* Navigation */,
 				E8AE08442C234C1C0013AF51 /* Localization */,
 				E8BEAE692C1F6BAD00BEE5E2 /* ViewComponents */,
 				E84A19882B0AA480008FFDDC /* Models */,
 				E84A19852B0AA3D3008FFDDC /* Storage */,
-				E85623122AF9868F00BECC3D /* FlashCa_SwiftUIApp.swift */,
-				E85623142AF9868F00BECC3D /* ContentView.swift */,
-				E85623222AF9879700BECC3D /* ExampleStartView.swift */,
-				E8219EEE2B04E77D003F44D9 /* StartView.swift */,
-				E85623162AF9868F00BECC3D /* Item.swift */,
-				E85623182AF9869000BECC3D /* Assets.xcassets */,
 				E856231A2AF9869000BECC3D /* Preview Content */,
-				E8219EF02B05818B003F44D9 /* CategoriesView.swift */,
 			);
 			path = FlashCa_SwiftUI;
 			sourceTree = "<group>";
