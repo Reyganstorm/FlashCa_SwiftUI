@@ -17,3 +17,5 @@ import Foundation
 ///  - Logs
 ///  - Privacy Policy
 ///  - Terms of Use
+///
+///  Think
