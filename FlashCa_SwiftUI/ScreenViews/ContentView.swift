@@ -9,8 +9,11 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
+    
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
+    
+    
 
     var body: some View {
         NavigationSplitView {
@@ -45,12 +48,6 @@ struct ContentView: View {
             Text("Select an item")
         }
     }
-//    
-//    private func showStarterView() {
-//        NavigationLink(destination: ExampleStartView()) {
-//            Text("Show Detail")
-//        }
-//    }
 
     private func addItem() {
         withAnimation {
