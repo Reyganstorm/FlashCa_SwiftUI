@@ -1,6 +1,15 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Add Item" : {
+
+    },
+    "Category" : {
+
+    },
+    "Charts" : {
+
+    },
     "currentLanguage" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -59,6 +68,12 @@
         }
       }
     },
+    "Enter" : {
+
+    },
+    "FlashCa" : {
+
+    },
     "Hello, world!" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -81,6 +96,36 @@
           }
         }
       }
+    },
+    "Hello, World!" : {
+
+    },
+    "Hi hi hi hi" : {
+
+    },
+    "Item at %@" : {
+
+    },
+    "Learn" : {
+
+    },
+    "Select an item" : {
+
+    },
+    "Settings" : {
+
+    },
+    "Show Detail" : {
+
+    },
+    "Text Email" : {
+
+    },
+    "Text Password" : {
+
+    },
+    "Ещё не с нами?" : {
+
     }
   },
   "version" : "1.0"
