@@ -28,7 +28,8 @@ struct FlashCa_SwiftUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            MainSreenView()
 //            StartView()
         }
         .modelContainer(sharedModelContainer)

@@ -10,8 +10,6 @@ import SwiftUI
 struct MainSreenView: View {
     var body: some View {
         
-        
-        
         CardView(term: "Hello", answer: "Bye")
             .padding()
     }

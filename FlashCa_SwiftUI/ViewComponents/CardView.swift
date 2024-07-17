@@ -16,7 +16,7 @@ struct CardView: View {
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 20)
-                .foregroundStyle(/*show ? .green :*/ .blue)
+                .foregroundStyle(show ? .green : .blue)
             
             
             
