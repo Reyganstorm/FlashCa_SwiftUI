@@ -19,6 +19,7 @@
 		E85623192AF9869000BECC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85623182AF9869000BECC3D /* Assets.xcassets */; };
 		E856231C2AF9869000BECC3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E856231B2AF9869000BECC3D /* Preview Assets.xcassets */; };
 		E85623232AF9879700BECC3D /* ExampleStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85623222AF9879700BECC3D /* ExampleStartView.swift */; };
+		E868A0782C5CE75E0070A15D /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = E868A0772C5CE75E0070A15D /* SwiftfulUI */; };
 		E87C985C2C5821A300C13B72 /* CardDeckStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87C985B2C5821A300C13B72 /* CardDeckStatistic.swift */; };
 		E8A58F0E2C35D005001D6F5B /* MainSreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A58F0D2C35D005001D6F5B /* MainSreenView.swift */; };
 		E8AE08462C234C470013AF51 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E8AE08452C234C470013AF51 /* Localizable.xcstrings */; };
@@ -54,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E868A0782C5CE75E0070A15D /* SwiftfulUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +183,9 @@
 			dependencies = (
 			);
 			name = FlashCa_SwiftUI;
+			packageProductDependencies = (
+				E868A0772C5CE75E0070A15D /* SwiftfulUI */,
+			);
 			productName = FlashCa_SwiftUI;
 			productReference = E856230F2AF9868F00BECC3D /* FlashCa_SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -212,6 +217,9 @@
 				es,
 			);
 			mainGroup = E85623062AF9868F00BECC3D;
+			packageReferences = (
+				E868A0762C5CE75E0070A15D /* XCRemoteSwiftPackageReference "SwiftfulUI" */,
+			);
 			productRefGroup = E85623102AF9868F00BECC3D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -461,6 +469,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E868A0762C5CE75E0070A15D /* XCRemoteSwiftPackageReference "SwiftfulUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E868A0772C5CE75E0070A15D /* SwiftfulUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E868A0762C5CE75E0070A15D /* XCRemoteSwiftPackageReference "SwiftfulUI" */;
+			productName = SwiftfulUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E85623072AF9868F00BECC3D /* Project object */;
 }
