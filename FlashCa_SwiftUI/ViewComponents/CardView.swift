@@ -15,11 +15,9 @@ struct CardView: View {
     
     var body: some View {
         ZStack{
-            RoundedRectangle(cornerRadius: 20)
-                .foregroundStyle(show ? .green : .blue)
-            
-            
-            
+            Rectangle()
+                .foregroundStyle(show ? .yellow : .blue)
+
             VStack(alignment: .leading) {
                 
                 
@@ -29,29 +27,58 @@ struct CardView: View {
                     
                     ZStack{
                         Circle()
-                            .frame(width: show ? nil : 25, height: show ? nil : 25)
-                            .foregroundStyle(.green)
+                            .frame(width: show ? nil : 100, height: show ? nil : 100)
+                            .foregroundStyle(.yellow)
+                            .onTapGesture {
+                                withAnimation(.easeIn) {
+                                    show.toggle()
+                                }
+                            }
+//                            .onLongPressGesture(
+//                            minimumDuration: 999,
+//                            maximumDistance: 0) {
+//                 
+//                            }
+//                    onPressingChanged: { bool in
+//                        withAnimation(.bouncy) {
+//                            show = bool
+//                        }
+//                        
+//                    }
                         
-                        Image(systemName: show ? "checkmark.circle.fill" : "")
-                            .font(.system(size: show ? 25 : 0))
-                            .foregroundStyle(show ? .blue : .white)
+//                        Image(systemName: show ? "" : "")
+//                            .font(.system(size: show ? 25 : 0))
+//                            .foregroundStyle(show ? .blue : .white)
                         // MARK: symbolEffect - ios 17+
 //                            .contentTransition(.symbolEffect)
                     }
                 }
                 .padding(.bottom, 20)
             }
-            Text(show ? answer : term)
-                .font(.largeTitle)
-                .padding(.top, 20)
+            
+            if show {
+                Text(answer)
+                    .font(.title2)
+                    .fontWeight(.medium)
+                    .padding(20)
+            } else {
+                Text(term)
+                    .font(.title2)
+                    .fontWeight(.medium)
+                    .padding(20)
+            }
+            
             
         }
-//        .contentShape(Rectangle())
-        .onTapGesture {
-            withAnimation(.easeIn) {
-                show.toggle()
-            }
-        }
+        .clipShape(.rect(cornerRadius: 32))
+        .overlay(content: {
+            RoundedRectangle(cornerRadius: 32)
+                .stroke(.black, lineWidth: 5)
+        })
+
+        
+        
+        
     }
 }
 
