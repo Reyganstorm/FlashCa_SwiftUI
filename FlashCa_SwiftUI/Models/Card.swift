@@ -10,10 +10,12 @@ import SwiftData
 
 @Model
 final class Card {
+    let id: Int
     let term: String
     let descript: String
     
-    init(term: String, descript: String) {
+    init(id: Int,term: String, descript: String) {
+        self.id = id
         self.term = term
         self.descript = descript
     }
