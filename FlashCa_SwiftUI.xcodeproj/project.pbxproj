@@ -86,7 +86,6 @@
 				E85623222AF9879700BECC3D /* ExampleStartView.swift */,
 				E85623142AF9868F00BECC3D /* ContentView.swift */,
 				E8219EF02B05818B003F44D9 /* CategoriesView.swift */,
-				E8A58F0D2C35D005001D6F5B /* MainSreenView.swift */,
 			);
 			path = ScreenViews;
 			sourceTree = "<group>";
@@ -131,6 +130,7 @@
 		E85623112AF9868F00BECC3D /* FlashCa_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E868A0752C5CE30C0070A15D /* Core */,
 				E83538922C348CF5001F2DB2 /* ScreenViews */,
 				E83538912C348CD5001F2DB2 /* App */,
 				E81365342C2F4BF600025C73 /* Navigation */,
@@ -149,6 +149,14 @@
 				E856231B2AF9869000BECC3D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E868A0752C5CE30C0070A15D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E8A58F0D2C35D005001D6F5B /* MainSreenView.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		E8AE08442C234C1C0013AF51 /* Localization */ = {
