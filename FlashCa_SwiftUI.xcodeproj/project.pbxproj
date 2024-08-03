@@ -133,6 +133,7 @@
 		E85623112AF9868F00BECC3D /* FlashCa_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E8DBEAD42C5E93510050A7BE /* Components */,
 				E868A0752C5CE30C0070A15D /* Core */,
 				E83538922C348CF5001F2DB2 /* ScreenViews */,
 				E83538912C348CD5001F2DB2 /* App */,
@@ -176,6 +177,13 @@
 				E8BEAE6A2C1F6BC000BEE5E2 /* CardView.swift */,
 			);
 			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		E8DBEAD42C5E93510050A7BE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
