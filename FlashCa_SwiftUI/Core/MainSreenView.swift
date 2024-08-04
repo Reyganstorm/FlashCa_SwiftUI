@@ -7,8 +7,11 @@
 
 import SwiftUI
 import SwiftfulUI
+import SwiftfulRouting
 
 struct MainSreenView: View {
+    
+    @Environment(\.router) var router
     
     @State private var allCards: [Card] = []
     @State private var selectedIndex: Int = 0
@@ -16,6 +19,7 @@ struct MainSreenView: View {
     @State private var currentSwipeOffset: CGFloat = 0
     
     var body: some View {
+        
         
         VStack(spacing: 12) {
             
@@ -97,17 +101,21 @@ struct MainSreenView: View {
             HStack {
                 Image(systemName: "line.horizontal.3")
                     .padding(8)
+                    .foregroundStyle(Color(.dayNight))
                     .background(Color.black.opacity(0.001))
                     .onTapGesture {
-                        
+                        router.showScreen(.sheet) { _ in
+                            DecksStoreView()
+                        }
                     }
                 
-                Image(systemName: "arrow.uturn.left")
-                    .padding(8)
-                    .background(Color.black.opacity(0.001))
-                    .onTapGesture {
-                        
-                    }
+//                Image(systemName: "arrow.uturn.left")
+//                    .padding(8)
+//                    .foregroundStyle(Color(.dayNight))
+//                    .background(Color.black.opacity(0.001))
+//                    .onTapGesture {
+//                        
+//                    }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             //                    .background(.red)
@@ -119,8 +127,9 @@ struct MainSreenView: View {
             //                            .background(.blue)
             
             
-            Image(systemName: "slider.horizontal.3")
+            Image(systemName: "square.and.pencil")
                 .padding(8)
+                .foregroundStyle(Color(.dayNight))
                 .background(Color.black.opacity(0.001))
                 .onTapGesture {
                     
