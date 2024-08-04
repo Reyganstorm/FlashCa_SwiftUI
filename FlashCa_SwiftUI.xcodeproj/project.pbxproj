@@ -26,6 +26,7 @@
 		E8AE08462C234C470013AF51 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E8AE08452C234C470013AF51 /* Localizable.xcstrings */; };
 		E8BEAE6B2C1F6BC100BEE5E2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BEAE6A2C1F6BC000BEE5E2 /* CardView.swift */; };
 		E8C816CC2BCBFA01004A3361 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C816CB2BCBFA01004A3361 /* ListCellView.swift */; };
+		E8DBEAE02C5EB6C70050A7BE /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = E8DBEADF2C5EB6C70050A7BE /* SwiftfulRouting */; };
 		E8ED6B3D2C1A1D7600D39F8F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ED6B3C2C1A1D7600D39F8F /* Card.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E868A0782C5CE75E0070A15D /* SwiftfulUI in Frameworks */,
+				E8DBEAE02C5EB6C70050A7BE /* SwiftfulRouting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +206,7 @@
 			name = FlashCa_SwiftUI;
 			packageProductDependencies = (
 				E868A0772C5CE75E0070A15D /* SwiftfulUI */,
+				E8DBEADF2C5EB6C70050A7BE /* SwiftfulRouting */,
 			);
 			productName = FlashCa_SwiftUI;
 			productReference = E856230F2AF9868F00BECC3D /* FlashCa_SwiftUI.app */;
@@ -238,6 +241,7 @@
 			mainGroup = E85623062AF9868F00BECC3D;
 			packageReferences = (
 				E868A0762C5CE75E0070A15D /* XCRemoteSwiftPackageReference "SwiftfulUI" */,
+				E8DBEADE2C5EB6C70050A7BE /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
 			);
 			productRefGroup = E85623102AF9868F00BECC3D /* Products */;
 			projectDirPath = "";
@@ -499,6 +503,14 @@
 				minimumVersion = 1.2.0;
 			};
 		};
+		E8DBEADE2C5EB6C70050A7BE /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -506,6 +518,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E868A0762C5CE75E0070A15D /* XCRemoteSwiftPackageReference "SwiftfulUI" */;
 			productName = SwiftfulUI;
+		};
+		E8DBEADF2C5EB6C70050A7BE /* SwiftfulRouting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8DBEADE2C5EB6C70050A7BE /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
+			productName = SwiftfulRouting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

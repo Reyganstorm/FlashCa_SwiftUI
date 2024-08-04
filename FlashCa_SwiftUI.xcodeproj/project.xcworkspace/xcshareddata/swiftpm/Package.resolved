@@ -1,5 +1,5 @@
 {
-  "originHash" : "379668ed84d51b825ad86b4be3c574baa873ced67da9e9cb9ea80fdbba4dcdb1",
+  "originHash" : "083f59e9518c4866d62ddaaba9526c43861f239e50c1f8008f9f51165fe54475",
   "pins" : [
     {
       "identity" : "swiftfulrecursiveui",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "3d2d5ac6efe70874fb5ffb2f8e1d5ccd457f4366",
         "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "swiftfulrouting",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftfulThinking/SwiftfulRouting.git",
+      "state" : {
+        "revision" : "02a6e295fbcbee2f30d49b90bd5e2b11a9885d39",
+        "version" : "5.3.5"
       }
     },
     {
