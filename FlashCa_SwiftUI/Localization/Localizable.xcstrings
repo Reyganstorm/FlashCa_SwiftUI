@@ -1,7 +1,10 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Add Item" : {
+    "%lld" : {
+
+    },
+    "Add Card" : {
 
     },
     "Category" : {
@@ -71,6 +74,12 @@
     "Enter" : {
 
     },
+    "Enter description" : {
+
+    },
+    "Enter title" : {
+
+    },
     "FlashCa" : {
 
     },
@@ -100,22 +109,10 @@
     "Hello, World!" : {
 
     },
-    "Hi hi hi hi" : {
-
-    },
-    "Item at %@" : {
-
-    },
     "Learn" : {
 
     },
-    "Select an item" : {
-
-    },
     "Settings" : {
-
-    },
-    "Show Detail" : {
 
     },
     "Text Email" : {
