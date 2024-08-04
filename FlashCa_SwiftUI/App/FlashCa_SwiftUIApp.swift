@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import SwiftfulRouting
 
 @main
 struct FlashCa_SwiftUIApp: App {
@@ -27,7 +28,10 @@ struct FlashCa_SwiftUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            MainSreenView()
+            RouterView { _ in
+                MainSreenView()
+//                DecksStoreView()
+            }
         }
         .modelContainer(sharedModelContainer)
     }
