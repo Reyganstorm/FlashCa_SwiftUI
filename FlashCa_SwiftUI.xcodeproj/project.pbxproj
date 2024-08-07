@@ -25,6 +25,7 @@
 		E8A58F0E2C35D005001D6F5B /* MainSreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A58F0D2C35D005001D6F5B /* MainSreenView.swift */; };
 		E8AE08462C234C470013AF51 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E8AE08452C234C470013AF51 /* Localizable.xcstrings */; };
 		E8BEAE6B2C1F6BC100BEE5E2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BEAE6A2C1F6BC000BEE5E2 /* CardView.swift */; };
+		E8BEE26D2C6408E50014ECFB /* SettingsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BEE26C2C6408E50014ECFB /* SettingsScreenView.swift */; };
 		E8C816CC2BCBFA01004A3361 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C816CB2BCBFA01004A3361 /* ListCellView.swift */; };
 		E8DBEAD62C5E9CEB0050A7BE /* DecksStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DBEAD52C5E9CEB0050A7BE /* DecksStoreView.swift */; };
 		E8DBEAE02C5EB6C70050A7BE /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = E8DBEADF2C5EB6C70050A7BE /* SwiftfulRouting */; };
@@ -50,6 +51,7 @@
 		E8A58F0D2C35D005001D6F5B /* MainSreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSreenView.swift; sourceTree = "<group>"; };
 		E8AE08452C234C470013AF51 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		E8BEAE6A2C1F6BC000BEE5E2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E8BEE26C2C6408E50014ECFB /* SettingsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenView.swift; sourceTree = "<group>"; };
 		E8C816CB2BCBFA01004A3361 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
 		E8DBEAD52C5E9CEB0050A7BE /* DecksStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecksStoreView.swift; sourceTree = "<group>"; };
 		E8ED6B3C2C1A1D7600D39F8F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			children = (
 				E8A58F0D2C35D005001D6F5B /* MainSreenView.swift */,
 				E8DBEAD52C5E9CEB0050A7BE /* DecksStoreView.swift */,
+				E8BEE26C2C6408E50014ECFB /* SettingsScreenView.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				E85623152AF9868F00BECC3D /* ContentView.swift in Sources */,
 				E84A19872B0AA3F8008FFDDC /* MockStorage.swift in Sources */,
 				E8219EEF2B04E77D003F44D9 /* StartView.swift in Sources */,
+				E8BEE26D2C6408E50014ECFB /* SettingsScreenView.swift in Sources */,
 				E8DBEAD62C5E9CEB0050A7BE /* DecksStoreView.swift in Sources */,
 				E87C985C2C5821A300C13B72 /* CardDeckStatistic.swift in Sources */,
 				E8219EF12B05818B003F44D9 /* CategoriesView.swift in Sources */,
